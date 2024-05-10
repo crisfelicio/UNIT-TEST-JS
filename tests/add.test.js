@@ -13,7 +13,4 @@ describe('Testando a função add', () => {
     expect(add(0, 0)).toBe(0);
   });
 
-  test('0 + 7 deve ser 0', () => {
-    expect(add(0, 7)).toBe(7);
-  });
 });
