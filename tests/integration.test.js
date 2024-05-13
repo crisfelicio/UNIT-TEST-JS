@@ -7,7 +7,7 @@ describe('Testes de Integração para o Módulo Calculator', () => {
     });
   
     test('Testando cálculo com números diferentes', () => {
-      const result = calculo(6, 1, 10); // (5 + 1) * 10 = 60
+      const result = calculo(5, 1, 10); // (5 + 1) * 10 = 60
       expect(result).toBe(60);
     });
   });
