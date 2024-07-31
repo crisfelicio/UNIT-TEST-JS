@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-chrome": "mocha --reporter spec --browser chrome",
+    "test-firefox": "mocha --reporter spec --browser firefox"
   },
   "keywords": [],
   "author": "",
